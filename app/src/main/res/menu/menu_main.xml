@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pprasert.skyhawksignature.MainActivity">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:orderInCategory="100"
+        android:title="Choose Play Time"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/Signature"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:title="Sign Signature"
+        app:showAsAction="always"></item>
+</menu>

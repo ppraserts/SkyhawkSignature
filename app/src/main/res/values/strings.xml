@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Skyhawk Signature</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_sign_signature">Sign Signature</string>
+    <string name="msg_saveImageSuccess">Image Saved to SD Card</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+</resources>
