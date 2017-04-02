@@ -31,7 +31,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
         TextView extratxt = (TextView) rowView.findViewById(R.id.textView1);
 
         txtTitle.setText(itemname[position]);
-        imageView.setImageResource(R.drawable.skylinelogo);
+        imageView.setImageResource(R.drawable.skyhawklogo);
         extratxt.setText(itemdesc[position]);
         return rowView;
 

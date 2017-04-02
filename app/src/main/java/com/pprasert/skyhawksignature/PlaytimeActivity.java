@@ -1,6 +1,7 @@
 package com.pprasert.skyhawksignature;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -42,6 +43,7 @@ public class PlaytimeActivity extends AppCompatActivity {
 
         CustomListAdapter adapter=new CustomListAdapter(this, itemname, itemDesc);
         playtime_list_view=(ListView)findViewById(R.id.playtime_list_view);
+        playtime_list_view.setBackgroundColor(Color.WHITE);
         playtime_list_view.setAdapter(adapter);
 
         playtime_list_view.setOnItemClickListener(new OnItemClickListener() {

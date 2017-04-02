@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/skylinelogo"
+        android:icon="@drawable/skyhawklogo"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
